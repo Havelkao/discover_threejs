@@ -66,7 +66,6 @@ class World {
   async init() {
     const text = await createText();
     scene.add(text);
-    console.log(text);
 
     const { parrot, flamingo, stork } = await loadBirds();
     loop.updatables.push(parrot, flamingo, stork);
