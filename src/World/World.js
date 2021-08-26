@@ -37,8 +37,6 @@ class World {
     scene.add(cube);
     loop.updatables.push(cube);
 
-    // scene.add(text);
-
     const { hemisphereLight, mainLight } = createLights();
     scene.add(mainLight, hemisphereLight);
     const mainLightHelper = new PointLightHelper(mainLight);

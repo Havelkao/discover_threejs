@@ -2,6 +2,7 @@ import { FontLoader, Mesh, MeshStandardMaterial, TextGeometry } from "three";
 
 async function createText() {
   const fontLoader = new FontLoader();
+
   const font = await fontLoader.loadAsync(
     "assets/fonts/helvetiker_regular.typeface.json"
   );

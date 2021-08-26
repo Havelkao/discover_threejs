@@ -8,7 +8,7 @@ import { MathUtils } from "three";
 
 function createMaterial() {
   const textureLoader = new TextureLoader();
-  const texture = textureLoader.load("/assets/textures/birb.svg");
+  const texture = textureLoader.load("assets/textures/birb.svg");
 
   const material = new MeshStandardMaterial({
     map: texture,

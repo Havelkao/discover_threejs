@@ -1,15 +1,28 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Having some fun with Three.js",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Havelkao/threejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Havelkao/threejs/issues"
+  },
+  "homepage": "https://github.com/Havelkao/threejs#readme",
   "devDependencies": {
-    "vite": "^2.4.4"
+    "vite": "^2.5.1"
   },
   "dependencies": {
-    "three": "^0.131.3"
+    "three": "^0.132.0"
   }
 }

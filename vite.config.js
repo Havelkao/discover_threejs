@@ -1,7 +1,3 @@
 import { defineConfig } from "vite";
 
-export default defineConfig({
-  build: {
-    base: "/threejs/"
-  }
-});
+export default defineConfig({});
